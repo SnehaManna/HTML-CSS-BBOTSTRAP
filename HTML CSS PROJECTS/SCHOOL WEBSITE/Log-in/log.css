@@ -1,0 +1,102 @@
+.button{
+    background:#0e4f1f;
+    color:rgb(241, 229, 229);
+    font:inherit;
+    border:1.5px solid #0e4f1f;
+    padding:8px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+    text-decoration: none;
+    margin-right: 278px;
+    margin-top:15px;
+    
+    }
+    .button a{
+      color:white;
+      text-decoration: none;
+    }
+    button:hover,
+    .button:active{
+    background:white;
+    color:#0e4f1f;
+    }
+    .button:focus{
+    outline:none;
+    }
+    
+    .signup-form{
+    padding:1rem;
+    border:5px solid #490591;
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+
+    }
+    .signup-form label{
+    font-weight:bold;
+    }
+    .signup-form label,
+    .signup-form input,
+    .signup-form select{
+    display:block;
+    margin-top:1rem;
+    width:100%;
+    }
+    .signup-form input[id*="terms"],
+    .signup-form input[id*="terms"]+label{
+    display:inline-block;
+    width:auto;
+    vertical-align:bottom;
+    }
+    .signup-form input:not([type="checkbox"]),
+    .signup-form select{
+    border:1px solid #ccc;
+    padding:0.2rem 0.5rem;
+    font:inherit;
+    }
+    .signup-form input:focus,
+    .signup-form select:focus{
+    outline:none;
+    background:#d8f3df;
+    border-color:#2ddf5c;
+    }
+    .signup-form input[type="checkbox"]{
+    border:1px solid #ccc;
+    background:white;
+    width:1rem;
+    height:1rem;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    }
+    .signup-form input[type="checkbox"]:checked{
+    background:#2ddf5c;
+    border:#0e4f1f;
+    }
+    .signup-form input.invalid,
+    .signup-form select.invalid,
+    .signup-form:invalid{
+      border-color:red !important;
+      background:#faacac;
+    }
+  .signup-form button[type="submit"]{
+    display:block;
+    margin-top:1rem;
+
+    }
+    @media(min-width:40rem){
+    .signup-form{
+    margin:auto;
+    width:25rem;
+    }
+    }
+    .signup-form label[type="forgot-password"]{
+        display:flex;
+        justify-content: space-between;
+        font-size: small;
+        color:red;
+    }

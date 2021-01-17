@@ -1,0 +1,104 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background:url("images/pexels-henrik-pfitzenmaier-941459.jpg");
+    z-index: -1;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top:15px;
+    right:1350px;
+    opacity: 90%;
+}
+.header-content{
+    display:inline-block;
+    position:absolute;
+    top:50px;
+    right:150px;
+    font-size: 15px;
+    
+}
+.main-nav__items{
+    display: flex;
+    
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-nav__item a{
+    text-decoration: none;
+    padding:9px;
+    color:white;
+}
+.main-nav__item a:hover,
+                    .main-nav__item a:active{
+                        color:#ad61ad;
+                    }
+.drop{
+   position: absolute;
+   display:none;
+   line-height: 1px;
+   margin-left: 30px;
+} 
+.drop a{
+    display: block;
+}          
+.main-nav__item:hover .drop{
+    display: block;
+}         
+.container{
+    height:1064px;
+   
+    /*border: 2px solid;*/
+    /* margin: auto; */
+    margin-bottom: 0;
+    position: absolute;
+    top: 185px;
+
+    left:110px;
+    background:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+57,0.65+100,0+100,0.65+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 57%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 57%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 57%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000',GradientType=0 );
+    ;
+}                 
+
+.row{
+    
+    border-right-style: 20px;
+    padding: 15px;
+}
+.col-6{
+    color:white;
+    font-size: 40px;
+    margin: 20px;
+    border-bottom:2px solid white;
+}
+.col1{
+    font-size:79px ;
+   margin-bottom: 10px;
+}
+.col-sm-5{
+    position: relative;
+    top: -2px;
+    right: -40px;
+    margin: 20px;
+}
+.col-5{
+    margin: 20px;
+}
+.col-5 h2{
+font-size:15px;
+color:#ad61ad;
+}
+.col-5 p{
+    color: white;
+}
+.col-4{
+    color:white;
+    margin: 20px;
+}

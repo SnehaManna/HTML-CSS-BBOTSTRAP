@@ -1,0 +1,41 @@
+.container{
+    border:8px solid rgb(190, 127, 68);
+    width:100%;
+    height:100%;
+    background-color: rgb(211, 199, 89);
+}
+.row1{
+    
+    width:50%;
+    
+    padding: 25px;
+    position: relative;
+    left: 541px;
+    font-size: 45px;
+    color:brown;
+}
+.row2{
+    margin: 22px;
+}
+.row2 img{
+    width: 1168px;
+    height: 295px;
+    position: relative;
+    left: 35px;
+
+}
+.row{
+    margin: 22px;
+}
+.col-3,.col-6,.col-9{
+    border:2px solid #eeeeee;
+    padding: 10px;
+}
+.col-3 img{
+    width: 285px;
+    height: 249px;
+}
+.bottom{
+    position: relative;
+    right: 2px;
+}

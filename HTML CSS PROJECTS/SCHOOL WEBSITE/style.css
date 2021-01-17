@@ -1,0 +1,185 @@
+*{
+    box-sizing:border-box;
+    }
+    body{
+    font-family:'Montserrat',sans-serif;
+    margin:0px;
+    }
+    .main-header{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#c7dd02;
+    padding:8px 16px;
+    z-index:1;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    **position:relative;**
+    }
+    
+    .main-header__brand{
+        display:flex;
+        }
+     .main-header__brand img{
+            height:50px;
+            width:5rem; 
+            }
+            .heading{
+                color:#0e4f1f;
+text-decoration:none;
+font-weight:bold;
+font-size:25px;
+display:flex;
+position: absolute;
+right:550px;
+top:18px;
+
+            }
+            .main-nav{
+                display:flex;
+                justify-content:space-around;
+                position:absolute;
+                right:44px;
+               
+            }
+ .main-nav__items{
+                margin:0;
+                padding:0;
+                list-style:none;
+                align-items:center;
+                }
+.main-nav__item{
+                display:inline-block;
+                margin:0 10px 0px 10px;
+                }
+.main-nav__item a{
+                    text-decoration:none;
+                    color:#0e4f1f;
+                    font-weight:bold;
+                    padding:3px 0;
+                    }
+                    .main-nav__item a:hover,
+                    .main-nav__item a:active{
+                    color:white;
+                    border-bottom:5px solid white;
+                    }  
+                    .main-nav__item--cta a{
+                    color:white;
+                    background:#ff1b68;
+                    padding:8px 16px;
+                    border-radius:8px;
+                    }
+                    .main-nav__item--cta a:hover,
+                    .main-nav__item--cta a:active{
+                    color:#ff1b68;
+                    background:white;
+                    border:none;
+                    }   
+                    .background{
+                        background:url("https://tarasundaribalikavidyabhaban.org/Sliding/image/Picture5.jpg");
+                        background-size: cover;
+                
+                        background-repeat:no-repeat;
+                        width:100%;
+                        height:100%;
+                        position:fixed;
+                        z-index:-1;
+                        }
+                        .intro{
+                            border:5px solid #72b9e9;
+                            margin:75px 180px;
+                            background:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+                            background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+                            background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                            background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                            
+                            
+                           margin-bottom:50px;
+                        }
+                        .intro__p{
+                            color:black;
+                            padding: 10px;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-size:large;
+                           ** box-shadow:6px #9edde2 ;
+                        }
+                        
+                        .plan{
+                            border:5px solid #d85d47;
+                            margin:10px 180px;
+                            background:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+                           background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+                           background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                           background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                           
+                            
+                        }
+                        .section-title{
+                            color:blue;
+                            text-align:center;
+                            font-weight:bold;
+                            }
+                        .plan__list{
+                            color:hsla(0, 71%, 32%, 0.925);
+                            padding: 10px;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-size:large;
+                        }
+                        .main-footer{
+                            background:black;
+                            padding:23px;
+                            margin-top:282px;
+                            position: relative;
+                            
+                            }
+                            .main-footer__links{
+                            list-style:none;
+                            margin:0;
+                            padding:0;
+                            display: flex;
+                            justify-content: space-around;
+                            }
+                            .main-footer__link{
+                            display:inline-block;
+                    
+                            margin:0 16px;
+                            }
+                            .link{
+                                color:white;
+                                position: absolute;
+                                top: 33px;
+                            
+                            }
+                            .main-footer__link a{
+                            color:white;
+                            text-decoration:none;
+                            }
+                            .main-footer__link a:hover,
+                            .main-footer__link a:active{
+                            color:#ccc;
+                            }
+
+                        .follow{
+                            color:white;
+                            position: absolute;
+                            top: 26px;
+                        }
+                        .icon{
+                            position: relative;
+                            top: -18px;
+                            right: 25px;
+                           }
+                        }
+                        .fb{
+                            margin:0 9px 0 5px;
+                        }
+                        .tw{
+                            margin:0 9px 0 15px;
+                        }
+                        .ln{
+                            margin:0 9px 0 5px;
+                        }

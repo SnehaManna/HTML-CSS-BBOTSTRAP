@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet" type="text/css"/>
+    <link href="log.css" rel="stylesheet" type="text/css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="background"></div>
+        <header class="main-header">
+        <div>
+        <a href="../index.html" class="main-header__brand">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi-BApBgIpeHTjmTvNFKrC0ltQRmeSMCb0zQ&usqp=CAU">
+        </a>
+        <div class="heading">TARASUNDARI BALIKA VIDYA BHABAN</div>
+        </div>
+        <nav class="main-nav">
+        <ul class="main-nav__items">
+        <li class="main-nav__item">
+        <a href="../About us/index.html">About us</a>
+        </li>
+        <li class="main-nav__item">
+        <a href="../Administration/index.html">Administration</a>
+        </li>
+        <li class="main-nav__item main-nav__item--cta">
+        <a href="index.html">Log-in</a>
+        </li>
+        </ul>
+        </nav>
+        </header>
+        <main>
+            <main class="signup-page">
+                <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+                <form action="index.html" class="signup-form">
+                    <label for="title">Title</label>
+                    <select id="title">
+                        <option value="mr">Mr.</option>
+                        <option value="ms">Ms.</option>
+                    </select>
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name">
+                    <label>position</label><input list="position">
+                    <datalist id="position">
+                        <option value="office-stuff">
+                        <option value="teacher">
+                        <option value="student">
+                        </option>
+                    </datalist>
+                    <label>class <required> (only for students)</required></label><input list="class">
+                            <datalist id="class">
+                                <option value="1">
+                                <option value="2">
+                                <option value="3">
+                                <option value="4">
+                                <option value="5">
+                                <option value="6">
+                                <option value="7">
+                                <option value="8">
+                                <option value="9">
+                                <option value="10">
+                                <option value="11">
+                                <option value="12"></option>
+                            </datalist>
+                     <label for="contact no:">contact no:</label>
+                    <input type="contact no:" id="contact no:">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+            
+                    <label type="forgot-password">
+                        <a href="#">forgot-password</a>
+                        <a href="#">already have an account?</a>
+                    </label>
+                    
+                    <input type="checkbox" id="agree-terms">
+                    <label for="agree-terms">Agree to
+                        <a href="#">Terms &amp; Conditions</a>
+                    </label>
+                    <div class="button">
+                        <a href="./Sign up/index.html">Sign up</a>
+                    <!-- <button type="submit" class="button">Sign Up</button> -->
+                    </div>
+                </form>
+            
+        </main>
+        <footer class="main-footer">
+            <nav>
+            <ul class="main-footer__links">
+            <li class="main-footer__link">
+            <p><span class="link">IMPORTANT LINK</span><br><a href="#">www.wbsed.gov.in<br>www.howrah.gov.in</a></p>
+            </li>
+            <li class="main-footer__link">
+            <span class="follow">follow us</span>
+            <br><br>
+            <p class="icon">
+                <a href="#" class="fb"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEU6VZ////81Up0yT5xgc61+jbsvTZyXo8hFXaOirM0nSJmlrs7O1OUkRpkfQ5c1UZ1oerKHlcDp6/M9WKHHzeHV2ulxgravt9Td4Ozl6PGDkb7ByN5YbatQZ6j29/q3v9h2hrhMY6aQnMSsAnKHAAAC70lEQVR4nO3caXLiMBRFYdoihhhsQ5jDlPT+F9mdqv7bRrYQ7z7XOQug9BUWHiQzmRARERERERERERERERERqVe0IZQPCtaDHFwo62Yz/VrP3jtbrH0Sy7rYH46/YtpV1oPtX6jCbBel+2npThjq/Taa51AYmrdTH583YdHsP/r5nAnLTa/j05+w+ezv8yRsq/MQoB9hmPeegb6E5eU2DOhFWK4G+rwIw3CgD2G4Dge6ELaboXPQi7CJu4nwK6zvKUAHwvCVBHQgrFMmoQdh4jGqL2wviUB5YRP/uMKnsJ2mAtWF9XLkwjblcs2FsDqMXZh6LpQXhn06UFtYpZ7t5YX1wEczboTF/AlAaWFYP0OovPZU9pmGt9194W79sIq/Jt2uqqrytwbcxJ4NT9e6tR7soEIk8N749E2K7zjgubEe6dAi75yOboGxwrnTQ/RvRZTwIHy6e1SccF5Yj3N4UcJjbT3MhKKEh9J6mAlFCZWvyR4WJXxDqBxChPohRKgfQoT6IUSoH0KE+iFEqB9ChPqNQ1h0vKJcxWwt/aofvelsDFzNOlpECO9dH/DT+8ZUWMYgErNdfXuB8Ga7RPwCofHy2wuE59EfpQvbH9MXCNejF65st2q8QPhtu5Mhv/BmfE2TX/hhvGMqv3BpvBslv/BuvGUqv3A2+nloff+YX3gx3rmYX2j9CCC78Ga9NzO78GS9dTG7cDv679B8c2Z24e/R/9LsRy+8Wm/kzy60nobZhdb3TvmF9u8e5hYaP0p8gfB99PPQ/l2F3MKp+StDuYXWvuxC60eJ+YXm907ZhQJ/NlA+4d9ZOrrbH6WTzbyjmL+D/Oz6BNsl/H8V/y9E7TYpOz7BGveoceyn6QohQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLUDyFC/RAi1A8hQv0QItQPIUL9ECLs0R8aFUYEFLSeAgAAAABJRU5ErkJggg==" width="25px"></a>
+                <a href="#" class="tw"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgEej48WrR5Pz9bugoDbqQISwY6LHTX-qsA&usqp=CAU" width="18px"></a>
+                <a href="#" class="ln"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoIHa_w1_SLqN0ujxZBg5Wyp-TgUSuuWxCXQ&usqp=CAU" width="25px"></a>
+            </p>
+        </li>
+            <li class="main-footer__link">
+            <a href="#">Help</a>
+            </li>
+            </ul>
+            </nav>
+            </footer>
+            </body>
+        
+</html>
+

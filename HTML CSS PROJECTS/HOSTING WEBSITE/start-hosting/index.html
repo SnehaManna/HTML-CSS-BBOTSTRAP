@@ -1,0 +1,278 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>uHost Signup</title>
+    <link rel="shortcut icon" href="../favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="start-hosting.css">
+	<style>
+*{
+box-sizing:border-box;
+}
+body{
+font-family:'Montserrat',sans-serif;
+margin:0px;
+}
+main{
+padding-top:2rem;
+}
+.main-header{
+width:100%;
+position:fixed;
+top:0;
+left:0;
+background:#2ddf5c;
+padding:8px 16px;
+z-index:1;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+.main-header>div{
+display:inline-block;
+vertical-align:middle;
+}
+.main-header__brand{
+color:#0e4f1f;
+text-decoration:none;
+font-weight:bold;
+height:2.5rem;
+display:inline-block;
+}
+.main-header__brand img{
+height:45px;
+}
+
+.main-nav{
+display:inline-block;
+text-align:right;
+width:calc(100% - 74px);
+vertical-align:middle;
+}
+.main-nav__items{
+margin:0;
+padding:0;
+list-style:none;
+}
+.main-nav__item{
+display:inline-block;
+margin:0 16px;
+}
+.main-nav__item a{
+text-decoration:none;
+color:#0e4f1f;
+font-weight:bold;
+padding:3px 0;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+color:white;
+border-bottom:5px solid white;
+}  
+.main-nav__item--cta a{
+color:white;
+background:#ff1b68;
+padding:8px 16px;
+border-radius:8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+color:#ff1b68;
+background:white;
+border:none;
+}   
+.main-footer{
+background:black;
+padding:32px;
+margin-top:48px;
+}
+.main-footer__links{
+list-style:nine;
+margin:0;
+padding:0;
+text-align:center;
+}
+.main-footer__link{
+display:inline-block;
+margin:0 16px;
+}
+.main-footer__link a{
+color:white;
+text-decoration:none;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+color:#ccc;
+}
+.button{
+background:#0e4f1f;
+color:white;
+font:inherit;
+border:1.5px solid #0e4f1f;
+padding:8px;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+button:hover,
+.button:active{
+background:white;
+color:#0e4f1f;
+}
+.button:focus{
+outline:none;
+}
+.signup-title{
+text-align:center;
+font-size:1.8rem;
+color:#ff5454;
+}
+.signup-form{
+padding:1rem;
+}
+.signup-form label{
+font-weight:bold;
+}
+.signup-form label,
+.signup-form input,
+.signup-form select{
+display:block;
+margin-top:1rem;
+width:100%;
+}
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"]+label{
+display:inline-block;
+width:auto;
+vertical-align:bottom;
+}
+.signup-form input:not([type="checkbox"]),
+.signup-form select{
+border:1px solid #ccc;
+padding:0.2rem 0.5rem;
+font:inherit;
+}
+.signup-form input:focus,
+.signup-form select:focus{
+outline:none;
+background:#d8f3df;
+border-color:#2ddf5c;
+}
+.signup-form input[type="checkbox"]{
+border:1px solid #ccc;
+background:white;
+width:1rem;
+height:1rem;
+-webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+}
+.signup-form input[type="checkbox"]:checked{
+background:#2ddf5c;
+border:#0e4f1f;
+}
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form:invalid{
+  border-color:red !important;
+  background:#faacac;
+}
+.signup-form button[type="submit"]{
+display:block;
+margin-top:1rem;
+}
+@media(min-width:40rem){
+.signup-form{
+margin:auto;
+width:25rem;
+}
+}
+</style>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a href="../index.html" class="main-header__brand">
+                <img src="../images/uhost-icon.png">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="../packages/index.html">Packages</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../customers/index.html">Customers</a>
+                </li>
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="index.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="../packages/index.html">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="../customers/index.html">Customers</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="index.html">Start Hosting</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="signup-page">
+        <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+        <form action="index.html" class="signup-form">
+            <label for="title">Title</label>
+            <select id="title">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+            </select>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+            </label>
+            <button type="submit" class="button">Sign Up</button>
+        </form>
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of Use</a>
+                </li>
+				<li class="main-footer__link">
+<a href="#">Help</a>
+</li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../shared.js"></script>
+</body>
+
+</html>
